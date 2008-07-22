@@ -1,0 +1,28 @@
+Hidden Markov Model Notes
+
+  This repo currently contains a few clips of notes on Hidden Markov Models.
+
+  HMMs are essentially regular expressions with mushiness, or rather, regex with the ability to match patterns and return a probability of a match as opposed to yes/no.
+
+  This property allows them to be really good at matching sequences of symbols where some parts of the sequences might sometimes be one symbol, but other times another. Examples lie in matching genomic sequences, music and voice recognition, and several other fields.
+
+
+Usages
+
+  Typically, HMMs are being used to answer one of three questions:
+    
+    How good/probable of a match is this sequence (to a HMM)? [Matching, or Likelihood]
+    
+    For a sequence of observed events, what’s the most likely sequence of hidden events? [Decoding]
+    
+    What’s the HMM that best matches this set of sequences? [Learning]
+
+(The Wikipedia version of ^^^ follows)
+
+There are three canonical problems associated with HMM:
+
+  Given the parameters of the model, compute the probability of a particular output sequence, and the probabilities of the hidden state values given that output sequence. This problem is solved by the forward-backward algorithm.
+  
+  Given the parameters of the model, find the most likely sequence of hidden states that could have generated a given output sequence. This problem is solved by the Viterbi algorithm.
+  
+  Given an output sequence or a set of such sequences, find the most likely set of state transition and output probabilities. In other words, discover the parameters of the HMM given a dataset of sequences. This problem is solved by the Baum-Welch algorithm.
