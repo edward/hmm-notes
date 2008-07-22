@@ -13,9 +13,15 @@ Usages
     
     How good/probable of a match is this sequence (to a HMM)? [Matching, or Likelihood]
     
+      (See fair_bet_casion.rb)
+    
     For a sequence of observed events, what’s the most likely sequence of hidden events? [Decoding]
     
+      (See viterbi_demo.rb and viterbi.rb)
+    
     What’s the HMM that best matches this set of sequences? [Learning]
+    
+      (I still have to write a demo that implements the Baum-Welch algorithm)
 
 (The Wikipedia version of ^^^ follows)
 
