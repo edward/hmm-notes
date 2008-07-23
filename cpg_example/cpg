@@ -1,0 +1,1 @@
+viterbi.rb $1 | calc_percents.rb | graph.rb

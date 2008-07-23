@@ -1,0 +1,10 @@
+
+ README
+ cpg_example
+ 
+ Created by Daniel Amelang
+ Notes by Edward Ocampo-Gooding
+ 
+ Amelang’s example here attempts to identify CpG islands; genomically significant as they tend to indicate the beginnings of transcription sites. [http://en.wikipedia.org/wiki/CpG_islands]
+
+ I’ve included it here as another example of Viterbi decoding.
